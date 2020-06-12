@@ -1,8 +1,8 @@
 <?php
-  if(){//
-  
+  if(isset($_GET["FirstName"])){//show data
+    echo $_GET["FirstName"];
   }
-  else{
+  else{//show form
     echo 
     '
       <form action="">
